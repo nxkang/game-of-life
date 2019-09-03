@@ -25,6 +25,14 @@
         <url>scm:git:git@github.com:${github.account}/gameoflife.git</url>
     </scm>
 
+	<repositories>
+		<repository>
+			<id>alimaven</id>
+			<name>aliyun maven</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
 	<build>
 		<plugins>
 			<plugin>
